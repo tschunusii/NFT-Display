@@ -9,7 +9,7 @@ async function fetchNFTs() {
     try {
         const response = await fetch(apiUrl, {
             headers: {
-                'X-API-KEY': '4430f84ffb44417eb41a96e563540842' // API-Schlüssel im Header
+                'X-API-KEY': '8982fb44fdfb4303a85526a1de38adf0' // API-Schlüssel im Header
             }
         });
 
