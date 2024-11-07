@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Detailseite</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <h1>Coin Details</h1>
+    
+    <!-- Coin Name und Preis -->
+    <div id="coin-info">
+        <h2 id="coin-name">Bitcoin</h2>
+        <p id="coin-price">$0.00</p>
+    </div>
+    
+    <!-- TradingView Chart Widget -->
+    <div class="tradingview-widget-container">
+        <div id="tradingview_chart"></div>
+    </div>
+
+    <!-- TradingView Widget-Skript -->
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+    <script src="../scripts/coin-detail.js"></script>
+</body>
+</html>
